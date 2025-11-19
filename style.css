@@ -1,0 +1,80 @@
+.image{
+    margin: auto;
+    width: 80px; 
+    height: 80px;
+    border-radius: 30%;
+    
+
+}
+body{
+    background-color: aquamarine;
+    text-align: center;
+    
+}
+
+
+
+
+/* style.css */
+
+/* Reset default margins */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar styling */
+nav {
+    background: linear-gradient(to right, #3700ffb7, #ff004c, #ff00d4, #0099ff);
+    padding: 15px 0;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 8px 16px;
+    border-radius: 10px;
+    transition:back ground 0.3s, transform 0.2s;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    transform: scale(1.1);
+}
+
+/* Page content styling */
+h1 {
+    text-align: center;
+    color: #333;
+    margin-top: 30px;
+}
+
+.image {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: auto;
+    border-radius: 100px;
+    border: 3px solid #0099ff;
+}
+
+p {
+    text-align: center;
+    font-size: 18px;
+}
